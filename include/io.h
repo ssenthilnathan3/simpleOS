@@ -37,3 +37,4 @@ void scroll(uint16_t row);
 void write_to_screen(const char *buf, uint16_t len);
 void clear_screen();
 void write_letter_to_screen(const char c, uint16_t pos);
+void clear_screen_and_draw();
